@@ -1,13 +1,3 @@
-# Guessing Game TODO
-# Import the 'random' library
-# Pick a random number between 1-50
-# ask user to choose number
-# tell them if its too high or too low or if they got it
-# Let them guess 6 times then tell them the number
-
-# Bonus: tell them how many guesses it took
-# Exception/error handling
-
 import random
 from time import sleep
 from functions import *
@@ -63,31 +53,3 @@ while attempts > 0:
 
 if attempts == 0:
     print(f"You ran out of guesses. Nice try though! The correct number was {winnerWinner}")
-
-# if playerGuess > winnerWinner:
-#     print("What's it like living in the North Pole? Way cold!")
-# if playerGuess < winnerWinner:
-#     print("Getting warmer.")
-# elif playerGuess == winnerWinner:
-#     print("What a great guess! You won!")
-
-# if playerGuess is >30, say "What's it like living in the North Pole? Way cold!"
-# if playerGuess guess is 20-30 from winnerWinner, then "
-# if player guess is 10-20 numbers away, say "Getting warmer."
-# if playerGuess is between 10-5 away from
-# if playerGuess is within 5, say "getting red hot/You're burning up!"
-
-#basic code for the game
-    # elif playerGuess > winnerWinner:
-    #     print("Nice try! Guess again!")
-    #     sleep(0.5)
-    #     playerGuess = int(input(f"Pick any guess between 1 and 100. You have {attempts} attempts remaining." + "\n"))
-    #     attempts -= 1
-    #
-    # elif playerGuess < winnerWinner:
-    #     print("Nice try! Guess again!")
-    #     sleep(0.5)
-    #     playerGuess = int(input(f"Pick any guess between 1 and 100. You have {attempts} attempts remaining." + "\n"))
-    #     attempts -= 1
-
-
