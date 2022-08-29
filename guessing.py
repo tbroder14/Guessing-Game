@@ -30,11 +30,11 @@ while attempts > 0:
         number = 0
 
     elif 100 >= abs(winnerWinner - playerGuess) > 40:
-        print ("What's it like living in the North Pole? Way cold! Here's an extra guess for free!")
+        print("What's it like living in the North Pole? Way cold! Here's an extra guess for free!")
         number = 1
 
     elif 40 >= abs(winnerWinner - playerGuess) > 20:
-        print ("Still colder. Like, Minnesota cold!")
+        print("Still colder. Like, Minnesota cold!")
 
     elif 20 >= abs(winnerWinner - playerGuess) > 10:
         print("Getting warmer!" + "\n")
